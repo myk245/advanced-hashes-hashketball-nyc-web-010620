@@ -88,7 +88,7 @@ end
 
 def winning_team
   #winning team is Brooklyn Nets
-  
+  game_hash[:home][:team_name]
 end
 
 def player_with_longest_name
