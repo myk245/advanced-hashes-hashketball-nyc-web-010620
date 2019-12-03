@@ -48,3 +48,6 @@ def team_colors(team_name)
     return team_data[:colors] if team_data.has_value?(team_name)
   end
 end
+
+def team_name
+end
