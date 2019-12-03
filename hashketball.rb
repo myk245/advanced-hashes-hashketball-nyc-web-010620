@@ -81,6 +81,9 @@ def big_shoe_rebounds
 end
 
 def most_points_scored
+  #most points scored by Ben Gordon, away team, Charlotte Hornets
+  #number of points scored by Ben Gordon is 33
+  game_hash[:away][:players][3][:player_name]
 end
 
 def winning_team
