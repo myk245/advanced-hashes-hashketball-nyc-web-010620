@@ -69,7 +69,6 @@ def player_stats(player_name)
       if player_stats.has_value?(player_name)
         players_stats.delete(:player_name)
         return player_stats
-      end 
     end
   end
 end
