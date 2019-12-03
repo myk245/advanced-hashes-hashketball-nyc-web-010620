@@ -67,7 +67,7 @@ def player_stats(players_name)
   game_hash.each do |team, team_data|
     team_data[:players].each do |player_stats|
       if player_stats.has_value?(players_name)
-        players_stats.delete(:player_name)
+        player_stats.delete(:player_name)
         return player_stats
       end 
     end
