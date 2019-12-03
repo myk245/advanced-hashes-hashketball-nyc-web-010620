@@ -92,4 +92,6 @@ def winning_team
 end
 
 def player_with_longest_name
+  #player with longest name is Bismack Biyombo, away team, Charlotte Hornets
+  game_hash[:away][:players][1][:player_name]
 end
