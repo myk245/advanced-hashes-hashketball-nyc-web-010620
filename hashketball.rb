@@ -31,6 +31,6 @@ def num_points_scored(player_name)
   game_hash.each do |team, team_data|
     team_data[:players].each do |player_stats|
       return player_stats[:points] if player_stats.has_value?(player_name)
-    end 
+    end
   end
 end
