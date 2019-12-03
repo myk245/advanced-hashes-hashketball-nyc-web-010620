@@ -42,3 +42,7 @@ def shoe_size(player_name)
     end
   end
 end
+
+def team_colors(team_name)
+  game.hash.each do 
+end
