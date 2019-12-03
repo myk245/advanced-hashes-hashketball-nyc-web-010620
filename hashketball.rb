@@ -51,5 +51,7 @@ end
 
 def team_name
   team_names = []
-  
+  game_hash.each do |team, team_data|
+    team_data[:team_name] << team_names
+  end 
 end
