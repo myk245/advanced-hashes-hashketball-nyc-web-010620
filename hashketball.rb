@@ -87,6 +87,8 @@ def most_points_scored
 end
 
 def winning_team
+  #winning team is Brooklyn Nets
+  
 end
 
 def player_with_longest_name
