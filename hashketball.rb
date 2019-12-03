@@ -50,8 +50,7 @@ def team_colors(team_name)
 end
 
 def team_names
-  team_array = []
-  game_hash.each do |team, team_data|
-    team_data[:team_name].to_s << team_array
+  game_hash.map do |team, team_data|
+    team_data[:team_name]
   end
 end
