@@ -97,4 +97,7 @@ def player_with_longest_name
 end
 
 def long_name_steals_a_ton
-end 
+  #returns true if the player with the longest name had the most steals
+  #Bismack Biyombo did not have the most steals, so this will return false
+  return false 
+end
