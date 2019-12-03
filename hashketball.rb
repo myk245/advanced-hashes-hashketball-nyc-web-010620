@@ -79,3 +79,12 @@ def big_shoe_rebounds
   #Jason Plumlee number of rebounds is 11
   game_hash[:home][:players][3][:rebounds]
 end
+
+def most_points_scored
+end
+
+def winning_team
+end
+
+def player_with_longest_name
+end 
