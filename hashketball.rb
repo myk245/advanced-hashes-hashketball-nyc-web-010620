@@ -68,5 +68,5 @@ def player_stats(players_name)
     team_data[:players] each do |player_stats|
       if player_stats.has_value?(players_name)
         return player_stats
-  end 
+  end
 end
