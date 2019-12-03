@@ -66,4 +66,4 @@ end
 def player_stats(players_name)
   game_hash.each do |team, team_data|
     return team_data[:players]
-end 
+end
