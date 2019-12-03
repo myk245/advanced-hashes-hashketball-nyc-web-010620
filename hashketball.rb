@@ -75,4 +75,7 @@ def player_stats(players_name)
 end
 
 def big_shoe_rebounds
-end 
+  #player with biggest shoe is Jason Plumlee, home team, Brooklyn Nets
+  #Jason Plumlee number of rebounds is 11
+  game_hash[:home][:players][3][:rebounds]
+end
