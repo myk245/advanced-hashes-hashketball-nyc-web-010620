@@ -46,6 +46,5 @@ end
 def team_colors(team_name)
   game.hash.each do |team, team_data|
     return team_data[:colors] if team_data.has_value?(team_name)
-    end 
   end
 end
